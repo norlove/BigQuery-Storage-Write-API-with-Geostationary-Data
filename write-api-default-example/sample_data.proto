@@ -1,0 +1,13 @@
+// Copyright 2023 Google. This software is provided as-is, without warranty or representation for any use or purpose.
+// Your use of it is subject to your agreement with Google.
+ 
+syntax = "proto2";
+ 
+message SampleData {
+  optional string geo_point1 = 1;
+  optional string geo_point2 = 2;
+  optional string geo_line = 3;
+  optional string geo_polygon = 4;
+  optional string geo_point1_string = 5;
+  optional string geo_point2_string = 6;
+}
